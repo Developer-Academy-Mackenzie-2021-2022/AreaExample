@@ -11,6 +11,7 @@
 		DF60899B2733080E00B1FD74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60899A2733080E00B1FD74 /* ContentView.swift */; };
 		DF60899D2733081200B1FD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF60899C2733081200B1FD74 /* Assets.xcassets */; };
 		DF6089A02733081200B1FD74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF60899F2733081200B1FD74 /* Preview Assets.xcassets */; };
+		DF6089AA273308C700B1FD74 /* FrameworkDeGraficos in Frameworks */ = {isa = PBXBuildFile; productRef = DF6089A9273308C700B1FD74 /* FrameworkDeGraficos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF60899A2733080E00B1FD74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF60899C2733081200B1FD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF60899F2733081200B1FD74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF6089A7273308B100B1FD74 /* FrameworkDeGraficos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FrameworkDeGraficos; path = ../../NC4/FrameworkDeGraficos; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6089AA273308C700B1FD74 /* FrameworkDeGraficos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +38,10 @@
 		DF60898C2733080E00B1FD74 = {
 			isa = PBXGroup;
 			children = (
+				DF6089A6273308B100B1FD74 /* Packages */,
 				DF6089972733080E00B1FD74 /* AreaExample */,
 				DF6089962733080E00B1FD74 /* Products */,
+				DF6089A8273308C700B1FD74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +72,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DF6089A6273308B100B1FD74 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DF6089A7273308B100B1FD74 /* FrameworkDeGraficos */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		DF6089A8273308C700B1FD74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = AreaExample;
+			packageProductDependencies = (
+				DF6089A9273308C700B1FD74 /* FrameworkDeGraficos */,
+			);
 			productName = AreaExample;
 			productReference = DF6089952733080E00B1FD74 /* AreaExample.app */;
 			productType = "com.apple.product-type.application";
@@ -341,6 +364,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF6089A9273308C700B1FD74 /* FrameworkDeGraficos */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrameworkDeGraficos;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF60898D2733080E00B1FD74 /* Project object */;
 }

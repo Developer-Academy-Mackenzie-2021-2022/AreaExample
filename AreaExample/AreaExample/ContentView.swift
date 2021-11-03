@@ -6,20 +6,28 @@
 //
 
 import SwiftUI
+import FrameworkDeGraficos
 
 struct ContentView: View {
     var body: some View {
             NavigationView {
                 ScrollView {
                     VStack(alignment: .leading) {
-                        Rectangle()
-                            .frame(height: 300)
-                        Text("Sobre o gráfico de área")
-                            .font(.headline)
+                        Text("Exemplo 1")
+                            .font(.title)
+                            .bold()
                             .padding()
-                        Text("textinho show")
+                        AreaGraph()
+//                        Text("Sobre o gráfico de área")
+//                            .font(.headline)
+//                            .padding()
+//                        Text("textinho show")
+//                            .padding()
+                        Text("Exemplo 2")
+                            .font(.title)
+                            .bold()
                             .padding()
-
+                        AreaGraph()
                     }
                 } .navigationTitle("Gráfico de Área")
             }
