@@ -27,7 +27,7 @@ struct ContentView: View {
                             .font(.title)
                             .bold()
                             .padding()
-                        AreaGraph()
+                        AreaGraph(datas: [[29, 72, 98, 69, 140, 136, 808, 2277, 1663, 95, 0, 0], [16, 103, 77, 228, 280, 106, 598, 1195, 725, 55, 0, 0]], titulo: "Monitoramento dos Focos Ativos por Estado", legendas: ["São Paulo", "Paraná"], nomeseixoX: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"])
                     }
                 } .navigationTitle("Gráfico de Área")
             }
