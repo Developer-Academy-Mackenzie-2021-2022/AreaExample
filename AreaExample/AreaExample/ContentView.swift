@@ -32,7 +32,7 @@ struct ContentView: View {
                             .font(.title)
                             .bold()
                             .padding()
-                        AreaGraph(datas: [[10,15,60,5], [60,70,23,10]], titulo: "Chart", legendas: ["Roxo", "Preto"], nomeseixoX: ["0","1","2","4"], colors: [Color.purple, Color.black], marginDireita: 40, marginEsquerda: 40, alturaGrafico: 300, quantidadeY: 10)
+                        AreaGraph(datas: [[10,15,60,5], [60,70,23,10]], titulo: "Chart", legendas: ["Roxo", "Preto"], nomeseixoX: ["0","1","2","4"], colors: [Color.purple, Color.black], marginDireita: 40, marginEsquerda: 100, alturaGrafico: 300, quantidadeY: 10)
                     }
                 } .navigationTitle("Gráfico de Área")
             }
