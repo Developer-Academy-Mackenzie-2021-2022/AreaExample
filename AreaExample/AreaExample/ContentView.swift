@@ -9,9 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+            NavigationView {
+                ScrollView {
+                    VStack(alignment: .leading) {
+                        Rectangle()
+                            .frame(height: 300)
+                        Text("Sobre o gráfico de área")
+                            .font(.headline)
+                            .padding()
+                        Text("textinho show")
+                            .padding()
+
+                    }
+                } .navigationTitle("Gráfico de Área")
+            }
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {
