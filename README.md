@@ -20,7 +20,7 @@ Após importar o framework para o seu projeto basta chamar a struct "AreaGraph":
 - alturaGrafico: CGFloat - Parâmetro que determina a altura do gráfico.
 - quantidadeY: Int - Quantidade de elementos que aparecerão no eixoY.
 
-## Valores default dos parâmetros
+### Valores default dos parâmetros
 
 - datas: [[CGFloat]] = [[100, 60.0, 117, 54, 56 ,13, 215, 100]]
 - titulo: String = "Title"
@@ -31,3 +31,6 @@ Após importar o framework para o seu projeto basta chamar a struct "AreaGraph":
 - marginEsquerda: CGFloat = 50
 - alturaGrafico: CGFloat = 200
 - quantidadeY: Int = 5
+
+Gráfico default:
+<img width="361" alt="Screen Shot 2021-11-04 at 14 02 25" src="https://user-images.githubusercontent.com/49925583/140385222-306a3155-fcc1-4848-81fa-ed016229d3d3.png">
