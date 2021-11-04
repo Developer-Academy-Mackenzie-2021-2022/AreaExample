@@ -6,6 +6,8 @@ Este é um repositório para exemplificar o uso do gráfico de área do framewor
 
 Os gráficos de áreas são parecidos com os gráficos de linhas, porém tem um sombreamento abaixo das linhas.
 
+<img width="373" alt="Screen Shot 2021-11-04 at 16 35 47" src="https://user-images.githubusercontent.com/49925583/140407867-18c2861e-11dc-486f-aa9c-0973f4a5051c.png"><img width="376" alt="Screen Shot 2021-11-04 at 16 36 31" src="https://user-images.githubusercontent.com/49925583/140407982-a21fbe10-9500-4869-a677-631329f662f0.png">
+
 ## Como utilizar o gráfico de Área no Everest?
 
 Após importar o framework para o seu projeto basta chamar a struct "AreaGraph": AreaGraph(). Dentro do construtor você pode inserir os dados que aparecerão e modificar os parametros do gráfico (Todos já possuem valores default, você pode modificar todos ou apenas alguns). Mas quais são os parametros modificaveis?
