@@ -10,6 +10,8 @@ Os gráficos de áreas são parecidos com os gráficos de linhas, porém tem um 
 
 Após importar o framework para o seu projeto basta chamar a struct "AreaGraph": AreaGraph(). Dentro do construtor você pode inserir os dados que aparecerão e modificar os parametros do gráfico (Todos já possuem valores default, você pode modificar todos ou apenas alguns). Mas quais são os parametros modificaveis?
 
+<img width="668" alt="Screen Shot 2021-11-04 at 16 24 43" src="https://user-images.githubusercontent.com/49925583/140406388-c35451f5-f044-4298-9b0a-fa7687960eb6.png">
+
 - datas: [[CGFloat]] - Aqui você insere os dados que aparecerao, dentro de uma matriz de CGFloat cada array será uma área do gráfico.
 - titulo: String - Este parâmetro é o título do gráfico e basta passar uma String.
 - legendas: [String] - Para colocar legenda no gráfico basta inserir as Strings dentro de um array.
@@ -33,4 +35,5 @@ Após importar o framework para o seu projeto basta chamar a struct "AreaGraph":
 - quantidadeY: Int = 5
 
 Gráfico default:
+
 <img width="361" alt="Screen Shot 2021-11-04 at 14 02 25" src="https://user-images.githubusercontent.com/49925583/140385222-306a3155-fcc1-4848-81fa-ed016229d3d3.png">
